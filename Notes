@@ -1,0 +1,18 @@
+Project Structure as is.
+
+add .htaccess
+
+-The app.php in the core folder acts as the router file. It routes all the urls provided in the browser.
+
+Note: 
+-I can add as many pages as we want as long we add a controller and a view for it. all preferrably with the same file name.
+
+6. - Created a Controller in the core folder to host all common funtions.
+
+7. -Every time a file is added in the core folder., it must be included in the init.php
+
+After configuring the template.
+-i create more controllers, i.e login, signup, upload 
+
+Next.
+-i create the views for the controllers.
